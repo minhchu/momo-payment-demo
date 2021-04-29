@@ -7,5 +7,9 @@ return [
 
     'access_key'   => env('MOMO_ACCESS_KEY'),
 
-    'secret_key'   => env('MOMO_SECRET_KEY')
+    'secret_key'   => env('MOMO_SECRET_KEY'),
+
+    'notify_url'   => env('MOMO_NOTIFY_URL'),
+
+    'return_url'   => env('MOMO_RETURN_URL')
 ];
