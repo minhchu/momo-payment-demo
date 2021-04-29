@@ -1,5 +1,7 @@
 <?php
 
+use App\Services\MomoPayment;
+
 /** @var \Laravel\Lumen\Routing\Router $router */
 
 /*
@@ -15,4 +17,8 @@
 
 $router->get('/', function () use ($router) {
     return $router->app->version();
+});
+
+$router->get('/app', function (MomoPayment $momo) {
+    return $momo->apiEndpoint; 
 });
