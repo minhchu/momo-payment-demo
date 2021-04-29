@@ -3,6 +3,7 @@
 ## Requirement
 - PHP >= 7.3
 - Composer
+- https://webhook.site for webhook testing
 
 ## Installation
 - Copy `.env.example` to `.env`
